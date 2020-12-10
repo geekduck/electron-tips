@@ -1,8 +1,18 @@
 // Modules to control application life and create native browser window
 import { app, BrowserWindow, Menu, Tray } from "electron";
 import * as path from "path";
+import * as isDev from "electron-is-dev";
 
-function createWindow () {
+// 開発モードの場合はホットリロードする。
+if (isDev) {
+  require("electron-reload")(__dirname, {
+    electron: require("path").join(__dirname, "..", "node_modules", ".bin", "electron"),
+    forceHardReset: true,
+    hardResetMethod: "exit",
+  });
+}
+
+function createWindow() {
   // Create the browser window.
   const mainWindow = new BrowserWindow({
     width: 800,
@@ -24,7 +34,7 @@ function createWindow () {
 // Some APIs can only be used after this event occurs.
 app.whenReady().then(() => {
   createWindow()
-  
+
   app.on('activate', function () {
     // On macOS it's common to re-create a window in the app when the
     // dock icon is clicked and there are no other windows open.
