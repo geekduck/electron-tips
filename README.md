@@ -1,45 +1,25 @@
-# electron-quick-start
+# electron-tips
 
-**Clone and run for a quick way to see Electron in action.**
+NTTテクノクロス Advent Calendar 2020 14日目の記事のサンプルコードです。
 
-This is a minimal Electron application based on the [Quick Start Guide](https://electronjs.org/docs/tutorial/quick-start) within the Electron documentation.
+Qiitaの記事 [Electron Tips](https://qiita.com/geek_duck/1e7b4a6bb242cd577c30)
 
-**Use this app along with the [Electron API Demos](https://electronjs.org/#get-started) app for API code examples to help you get started.**
+### [TypeScriptでElectronアプリを作りたい&ホットリロードもしたい](https://qiita.com/geek_duck/1e7b4a6bb242cd577c30#typescript%E3%81%A7electron%E3%82%A2%E3%83%97%E3%83%AA%E3%82%92%E4%BD%9C%E3%82%8A%E3%81%9F%E3%81%84%E3%83%9B%E3%83%83%E3%83%88%E3%83%AA%E3%83%AD%E3%83%BC%E3%83%89%E3%82%82%E3%81%97%E3%81%9F%E3%81%84)
 
-A basic Electron application needs just these files:
+#### [TypeScript化](https://qiita.com/geek_duck/1e7b4a6bb242cd577c30#typescript%E5%8C%96)
 
-- `package.json` - Points to the app's main file and lists its details and dependencies.
-- `main.js` - Starts the app and creates a browser window to render HTML. This is the app's **main process**.
-- `index.html` - A web page to render. This is the app's **renderer process**.
+[該当commit](https://github.com/geekduck/electron-tips/commit/980d9f28c4af4311fc0d4471044cc78a8c302bfe)
 
-You can learn more about each of these components within the [Quick Start Guide](https://electronjs.org/docs/tutorial/quick-start).
 
-## To Use
+#### [ホットリロード](https://qiita.com/geek_duck/1e7b4a6bb242cd577c30#%E3%83%9B%E3%83%83%E3%83%88%E3%83%AA%E3%83%AD%E3%83%BC%E3%83%89)
 
-To clone and run this repository you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
+[該当commit](https://github.com/geekduck/electron-tips/commit/d788d58eb0cb3875159639ee00ca8535944c838d)
 
-```bash
-# Clone this repository
-git clone https://github.com/electron/electron-quick-start
-# Go into the repository
-cd electron-quick-start
-# Install dependencies
-npm install
-# Run the app
-npm start
-```
 
-Note: If you're using Linux Bash for Windows, [see this guide](https://www.howtogeek.com/261575/how-to-run-graphical-linux-desktop-applications-from-windows-10s-bash-shell/) or use `node` from the command prompt.
+### [JavaScript内で実行環境がElectronかブラウザか判定する](https://qiita.com/geek_duck/1e7b4a6bb242cd577c30#javascript%E5%86%85%E3%81%A7%E5%AE%9F%E8%A1%8C%E7%92%B0%E5%A2%83%E3%81%8Celectron%E3%81%8B%E3%83%96%E3%83%A9%E3%82%A6%E3%82%B6%E3%81%8B%E5%88%A4%E5%AE%9A%E3%81%99%E3%82%8B)
 
-## Resources for Learning Electron
+[該当commit](https://github.com/geekduck/electron-tips/commit/d479237e10743b51e7336531f70c687850a58981)
 
-- [electronjs.org/docs](https://electronjs.org/docs) - all of Electron's documentation
-- [electronjs.org/community#boilerplates](https://electronjs.org/community#boilerplates) - sample starter apps created by the community
-- [electron/electron-quick-start](https://github.com/electron/electron-quick-start) - a very basic starter Electron app
-- [electron/simple-samples](https://github.com/electron/simple-samples) - small applications with ideas for taking them further
-- [electron/electron-api-demos](https://github.com/electron/electron-api-demos) - an Electron app that teaches you how to use Electron
-- [hokein/electron-sample-apps](https://github.com/hokein/electron-sample-apps) - small demo apps for the various Electron APIs
+### [electron-builder紹介](https://qiita.com/geek_duck/1e7b4a6bb242cd577c30#electron-builder%E7%B4%B9%E4%BB%8B)
 
-## License
-
-[CC0 1.0 (Public Domain)](LICENSE.md)
+[該当commit](https://github.com/geekduck/electron-tips/commit/4e336a7b1e65a47c35b65ddc6c9bfd3f3d69dfd4)
